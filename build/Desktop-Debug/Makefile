@@ -187,6 +187,54 @@ snigdhaos-horizon_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snigdhaos-horizon_autogen.dir/build.make CMakeFiles/snigdhaos-horizon_autogen.dir/build
 .PHONY : snigdhaos-horizon_autogen/fast
 
+controller_application.o: controller_application.cpp.o
+.PHONY : controller_application.o
+
+# target to build an object file
+controller_application.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snigdhaos-horizon.dir/build.make CMakeFiles/snigdhaos-horizon.dir/controller_application.cpp.o
+.PHONY : controller_application.cpp.o
+
+controller_application.i: controller_application.cpp.i
+.PHONY : controller_application.i
+
+# target to preprocess a source file
+controller_application.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snigdhaos-horizon.dir/build.make CMakeFiles/snigdhaos-horizon.dir/controller_application.cpp.i
+.PHONY : controller_application.cpp.i
+
+controller_application.s: controller_application.cpp.s
+.PHONY : controller_application.s
+
+# target to generate assembly for a file
+controller_application.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snigdhaos-horizon.dir/build.make CMakeFiles/snigdhaos-horizon.dir/controller_application.cpp.s
+.PHONY : controller_application.cpp.s
+
+event_router.o: event_router.cpp.o
+.PHONY : event_router.o
+
+# target to build an object file
+event_router.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snigdhaos-horizon.dir/build.make CMakeFiles/snigdhaos-horizon.dir/event_router.cpp.o
+.PHONY : event_router.cpp.o
+
+event_router.i: event_router.cpp.i
+.PHONY : event_router.i
+
+# target to preprocess a source file
+event_router.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snigdhaos-horizon.dir/build.make CMakeFiles/snigdhaos-horizon.dir/event_router.cpp.i
+.PHONY : event_router.cpp.i
+
+event_router.s: event_router.cpp.s
+.PHONY : event_router.s
+
+# target to generate assembly for a file
+event_router.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snigdhaos-horizon.dir/build.make CMakeFiles/snigdhaos-horizon.dir/event_router.cpp.s
+.PHONY : event_router.cpp.s
+
 horizon.o: horizon.cpp.o
 .PHONY : horizon.o
 
@@ -273,6 +321,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... snigdhaos-horizon_autogen"
 	@echo "... snigdhaos-horizon"
+	@echo "... controller_application.o"
+	@echo "... controller_application.i"
+	@echo "... controller_application.s"
+	@echo "... event_router.o"
+	@echo "... event_router.i"
+	@echo "... event_router.s"
 	@echo "... horizon.o"
 	@echo "... horizon.i"
 	@echo "... horizon.s"

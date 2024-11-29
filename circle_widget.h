@@ -1,0 +1,4 @@
+#ifndef CIRCLE_WIDGET_H
+#define CIRCLE_WIDGET_H
+
+#endif // CIRCLE_WIDGET_H

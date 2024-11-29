@@ -14,7 +14,8 @@ class Horizon : public QMainWindow
     Q_OBJECT
 
 public:
-    Horizon(QWidget *parent = nullptr);
+    // Horizon(QWidget *parent = nullptr);
+    explicit Horizon(QWidget *parent = 0);
     ~Horizon();
 
 private:

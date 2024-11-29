@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/snigdhaos-horizon_autogen"
+  "snigdhaos-horizon_autogen/include/ui_home_ui.h"
   "snigdhaos-horizon_autogen/include/ui_horizon.h"
   "snigdhaos-horizon_autogen/mocs_compilation.cpp"
   "snigdhaos-horizon_autogen/timestamp"

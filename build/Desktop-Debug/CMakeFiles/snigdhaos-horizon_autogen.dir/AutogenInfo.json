@@ -435,6 +435,30 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/whoami/snigdhaos-horizon/circle_widget.h",
+			"MU",
+			"EWIEGA46WW/moc_circle_widget.cpp",
+			null
+		],
+		[
+			"/home/whoami/snigdhaos-horizon/controller_application.h",
+			"MU",
+			"EWIEGA46WW/moc_controller_application.cpp",
+			null
+		],
+		[
+			"/home/whoami/snigdhaos-horizon/event_router.h",
+			"MU",
+			"EWIEGA46WW/moc_event_router.cpp",
+			null
+		],
+		[
+			"/home/whoami/snigdhaos-horizon/home_ui.h",
+			"MU",
+			"EWIEGA46WW/moc_home_ui.cpp",
+			null
+		],
+		[
 			"/home/whoami/snigdhaos-horizon/horizon.h",
 			"MU",
 			"EWIEGA46WW/moc_horizon.cpp",
@@ -500,6 +524,12 @@
 	"SETTINGS_FILE" : "/home/whoami/snigdhaos-horizon/build/Desktop-Debug/CMakeFiles/snigdhaos-horizon_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/home/whoami/snigdhaos-horizon/controller_application.cpp",
+			"MU",
+			null
+		],
+		[ "/home/whoami/snigdhaos-horizon/event_router.cpp", "MU", null ],
 		[ "/home/whoami/snigdhaos-horizon/horizon.cpp", "MU", null ],
 		[ "/home/whoami/snigdhaos-horizon/main.cpp", "MU", null ]
 	],

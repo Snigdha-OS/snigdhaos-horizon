@@ -71,13 +71,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 62,
+				"line" : 69,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 45,
+				"line" : 52,
 				"parent" : 0
 			},
 			{
@@ -284,7 +284,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				8
 			]
 		}
 	],
@@ -369,7 +370,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				8
 			]
 		},
 		{
@@ -377,7 +379,12 @@
 			"sourceIndexes" : 
 			[
 				3,
-				5
+				6,
+				7,
+				9,
+				10,
+				11,
+				12
 			]
 		},
 		{
@@ -385,14 +392,15 @@
 			"sourceIndexes" : 
 			[
 				4,
-				6
+				5,
+				13
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				7
+				14
 			]
 		}
 	],
@@ -428,9 +436,46 @@
 			"sourceGroupIndex" : 2
 		},
 		{
+			"backtrace" : 4,
+			"path" : "home_ui.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "home_ui.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "circle_widget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "controller_application.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "controller_application.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "event_router.h",
+			"sourceGroupIndex" : 1
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop-Debug/snigdhaos-horizon_autogen/include/ui_horizon.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop-Debug/snigdhaos-horizon_autogen/include/ui_home_ui.h",
 			"sourceGroupIndex" : 1
 		},
 		{

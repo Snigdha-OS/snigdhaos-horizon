@@ -23,6 +23,14 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(snigdhaos-horizon
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+
+        home_ui.ui
+        home_ui.h
+        circle_widget.h
+        controller_application.cpp
+        controller_application.h
+        event_router.h
+        event_router.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET snigdhaos-horizon APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

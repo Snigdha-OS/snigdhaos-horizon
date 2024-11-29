@@ -121,11 +121,41 @@ CMakeFiles/snigdhaos-horizon.dir/horizon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snigdhaos-horizon.dir/horizon.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/whoami/snigdhaos-horizon/horizon.cpp -o CMakeFiles/snigdhaos-horizon.dir/horizon.cpp.s
 
+CMakeFiles/snigdhaos-horizon.dir/controller_application.cpp.o: CMakeFiles/snigdhaos-horizon.dir/flags.make
+CMakeFiles/snigdhaos-horizon.dir/controller_application.cpp.o: /home/whoami/snigdhaos-horizon/controller_application.cpp
+CMakeFiles/snigdhaos-horizon.dir/controller_application.cpp.o: CMakeFiles/snigdhaos-horizon.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/whoami/snigdhaos-horizon/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/snigdhaos-horizon.dir/controller_application.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snigdhaos-horizon.dir/controller_application.cpp.o -MF CMakeFiles/snigdhaos-horizon.dir/controller_application.cpp.o.d -o CMakeFiles/snigdhaos-horizon.dir/controller_application.cpp.o -c /home/whoami/snigdhaos-horizon/controller_application.cpp
+
+CMakeFiles/snigdhaos-horizon.dir/controller_application.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/snigdhaos-horizon.dir/controller_application.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/whoami/snigdhaos-horizon/controller_application.cpp > CMakeFiles/snigdhaos-horizon.dir/controller_application.cpp.i
+
+CMakeFiles/snigdhaos-horizon.dir/controller_application.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snigdhaos-horizon.dir/controller_application.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/whoami/snigdhaos-horizon/controller_application.cpp -o CMakeFiles/snigdhaos-horizon.dir/controller_application.cpp.s
+
+CMakeFiles/snigdhaos-horizon.dir/event_router.cpp.o: CMakeFiles/snigdhaos-horizon.dir/flags.make
+CMakeFiles/snigdhaos-horizon.dir/event_router.cpp.o: /home/whoami/snigdhaos-horizon/event_router.cpp
+CMakeFiles/snigdhaos-horizon.dir/event_router.cpp.o: CMakeFiles/snigdhaos-horizon.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/whoami/snigdhaos-horizon/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/snigdhaos-horizon.dir/event_router.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snigdhaos-horizon.dir/event_router.cpp.o -MF CMakeFiles/snigdhaos-horizon.dir/event_router.cpp.o.d -o CMakeFiles/snigdhaos-horizon.dir/event_router.cpp.o -c /home/whoami/snigdhaos-horizon/event_router.cpp
+
+CMakeFiles/snigdhaos-horizon.dir/event_router.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/snigdhaos-horizon.dir/event_router.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/whoami/snigdhaos-horizon/event_router.cpp > CMakeFiles/snigdhaos-horizon.dir/event_router.cpp.i
+
+CMakeFiles/snigdhaos-horizon.dir/event_router.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snigdhaos-horizon.dir/event_router.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/whoami/snigdhaos-horizon/event_router.cpp -o CMakeFiles/snigdhaos-horizon.dir/event_router.cpp.s
+
 # Object files for target snigdhaos-horizon
 snigdhaos__horizon_OBJECTS = \
 "CMakeFiles/snigdhaos-horizon.dir/snigdhaos-horizon_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/snigdhaos-horizon.dir/main.cpp.o" \
-"CMakeFiles/snigdhaos-horizon.dir/horizon.cpp.o"
+"CMakeFiles/snigdhaos-horizon.dir/horizon.cpp.o" \
+"CMakeFiles/snigdhaos-horizon.dir/controller_application.cpp.o" \
+"CMakeFiles/snigdhaos-horizon.dir/event_router.cpp.o"
 
 # External object files for target snigdhaos-horizon
 snigdhaos__horizon_EXTERNAL_OBJECTS =
@@ -133,6 +163,8 @@ snigdhaos__horizon_EXTERNAL_OBJECTS =
 snigdhaos-horizon: CMakeFiles/snigdhaos-horizon.dir/snigdhaos-horizon_autogen/mocs_compilation.cpp.o
 snigdhaos-horizon: CMakeFiles/snigdhaos-horizon.dir/main.cpp.o
 snigdhaos-horizon: CMakeFiles/snigdhaos-horizon.dir/horizon.cpp.o
+snigdhaos-horizon: CMakeFiles/snigdhaos-horizon.dir/controller_application.cpp.o
+snigdhaos-horizon: CMakeFiles/snigdhaos-horizon.dir/event_router.cpp.o
 snigdhaos-horizon: CMakeFiles/snigdhaos-horizon.dir/build.make
 snigdhaos-horizon: CMakeFiles/snigdhaos-horizon.dir/compiler_depend.ts
 snigdhaos-horizon: /usr/lib/libQt6Widgets.so.6.8.0
@@ -141,7 +173,7 @@ snigdhaos-horizon: /usr/lib/libGLX.so
 snigdhaos-horizon: /usr/lib/libOpenGL.so
 snigdhaos-horizon: /usr/lib/libQt6Core.so.6.8.0
 snigdhaos-horizon: CMakeFiles/snigdhaos-horizon.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/whoami/snigdhaos-horizon/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable snigdhaos-horizon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/whoami/snigdhaos-horizon/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable snigdhaos-horizon"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/snigdhaos-horizon.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
